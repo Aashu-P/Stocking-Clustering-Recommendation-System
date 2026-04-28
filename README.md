@@ -4,7 +4,7 @@ This project implements an unsupervised machine learning, K-Means clustering-bas
 
 ## Project Structure
 
-- `modeling.ipynb`: A Jupyter Notebook where data preprocessing, exploratory data analysis, PCA (Principal Component Analysis) dimensionality reduction, and clustering algorithm testing (K-Means, DBSCAN) are performed. The final clustering is evaluated and saved to disk.
+- `modeling.ipynb`: A Jupyter Notebook where data preprocessing, exploratory data analysis, PCA (Principal Component Analysis) dimensionality reduction, and clustering algorithm testing (K-Means) are performed. The final clustering is evaluated and saved to disk.
 - `app.py`: A Streamlit web application that serves as the interactive frontend. Users can select a NASDAQ stock, and the app returns a random sample of other recommended stocks from the same cluster.
 - `data and feature eng/`: Folder containing raw, preprocessed, and final clustered datasets (e.g., `clustered_stocks.csv`, `nasdaq_features_final.csv`).
 
