@@ -23,7 +23,7 @@ You can install these via pip:
 pip install pandas numpy scikit-learn matplotlib seaborn streamlit
 ```
 
-## How to Run the App
+## How to Run the App Locally
 
 1. **Activate your virtual environment** (if you are using one):
    - Windows: `.venv\Scripts\activate`
@@ -37,6 +37,9 @@ pip install pandas numpy scikit-learn matplotlib seaborn streamlit
 
 3. **Use the User Interface**:
    The command will open a local web server (usually at `http://localhost:8501`). Select your favorite stock from the searchable dropdown, click **"Recommend Stocks"**, and the app will display a list of stocks sharing a similar risk/return profile.
+
+## Run the App on Streamlit Cloud
+Deployed: https://stockrecommendation.streamlit.app/
 
 ## Re-training / Data Updates
 
